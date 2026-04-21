@@ -1,0 +1,3 @@
+4OPT训练 + 2SAR训练
+SAR1训练时冻结decoder
+SAR2训练时冻结encoder

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+CUDA_VISIBLE_DEVICES=0 python /data1/sjc/work3/mmdetection/tools/test.py /data1/sjc/work3/mmdetection/configs/a_dino/diod_test/dino-4scale_r50_8xb2-12e_coco_HRSSD.py /data1/sjc/work3/mmdetection/work_dirs/dino/JO/epoch_20.pth --work-dir /data1/sjc/work3/mmdetection/work_dirs/dino/JO_test/HR
+CUDA_VISIBLE_DEVICES=0 python /data1/sjc/work3/mmdetection/tools/test.py /data1/sjc/work3/mmdetection/configs/a_dino/diod_test/dino-4scale_r50_8xb2-12e_coco_LEVIR.py /data1/sjc/work3/mmdetection/work_dirs/dino/JO/epoch_20.pth --work-dir /data1/sjc/work3/mmdetection/work_dirs/dino/JO_test/LE
+CUDA_VISIBLE_DEVICES=0 python /data1/sjc/work3/mmdetection/tools/test.py /data1/sjc/work3/mmdetection/configs/a_dino/diod_test/dino-4scale_r50_8xb2-12e_coco_DIOR.py /data1/sjc/work3/mmdetection/work_dirs/dino/JO/epoch_20.pth --work-dir /data1/sjc/work3/mmdetection/work_dirs/dino/JO_test/DI
+CUDA_VISIBLE_DEVICES=0 python /data1/sjc/work3/mmdetection/tools/test.py /data1/sjc/work3/mmdetection/configs/a_dino/diod_test/dino-4scale_r50_8xb2-12e_coco_DOTA.py /data1/sjc/work3/mmdetection/work_dirs/dino/JO/epoch_20.pth --work-dir /data1/sjc/work3/mmdetection/work_dirs/dino/JO_test/DO
+CUDA_VISIBLE_DEVICES=0 python /data1/sjc/work3/mmdetection/tools/test.py /data1/sjc/work3/mmdetection/configs/a_dino/diod_test/dino-4scale_r50_8xb2-12e_coco_MSAR.py /data1/sjc/work3/mmdetection/work_dirs/dino/JO/epoch_20.pth --work-dir /data1/sjc/work3/mmdetection/work_dirs/dino/JO_test/MS
+CUDA_VISIBLE_DEVICES=0 python /data1/sjc/work3/mmdetection/tools/test.py /data1/sjc/work3/mmdetection/configs/a_dino/diod_test/dino-4scale_r50_8xb2-12e_coco_SSDD.py /data1/sjc/work3/mmdetection/work_dirs/dino/JO/epoch_20.pth --work-dir /data1/sjc/work3/mmdetection/work_dirs/dino/JO_test/SS
+CUDA_VISIBLE_DEVICES=0 python /data1/sjc/work3/mmdetection/tools/test.py /data1/sjc/work3/mmdetection/configs/a_dino/dino-4scale_r50_coco_Joint.py /data1/sjc/work3/mmdetection/work_dirs/dino/JO/epoch_20.pth --work-dir /data1/sjc/work3/mmdetection/work_dirs/dino/JO_test/JO
+
