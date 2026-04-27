@@ -1,7 +1,7 @@
 # Learning-to-Remember-Across-Domains-for-Remote-Sensing-Incremental-Object-Detection
 
 ## Intorduction
-[Pipeline](demo/pipe.png)
+![Pipeline](demo/pipe.png)
 **Remote Sensing Domain-Incremental Object Detection (RS-DIOD)** is a highly challenging yet practical task. In real-world Earth observation applications, models must continuously learn from newly collected data across different geographical regions, sensors, or weather conditions (i.e., new domains) without forgetting previously acquired knowledge. 
 
 Conventional incremental learning methods often struggle in this scenario due to severe inter-domain distribution shifts and extreme background dominance inherent in remote sensing imagery. To tackle these unique bottlenecks, we propose a novel framework named **L2RAD (Learning to Remember Across Domains)**.
@@ -14,7 +14,7 @@ L2RAD achieves a delicate balance between plasticity (learning new domains) and 
 
 Extensive experiments across multiple remote sensing benchmarks (including HRRSD, DIOR, DOTA, LEVIR, etc.) demonstrate that L2RAD significantly outperforms existing state-of-the-art methods, providing a robust and scalable foundation for continuous learning in complex remote sensing environments.
 
-[Vis](demo/Vis.png)
+![Vis](demo/Vis.png)
 
 ## Quick Start
 Our codebase is built upon the popular [MMDetection](https://github.com/open-mmlab/mmdetection) framework. The training and testing procedures follow the standard MMDetection style.
