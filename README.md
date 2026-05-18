@@ -17,9 +17,19 @@ Extensive experiments across multiple remote sensing benchmarks (including HRRSD
 ![Vis](demo/Vis.png)
 
 ## Demo
-![visualization demo](demo/LE27.gif)
-![visualization demo](demo/LE131.gif)
-![visualization demo](demo/LE416.gif)
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="demo/LE27.gif" width="100%">
+    </td>
+    <td align="center" width="33%">
+      <img src="demo/LE131.gif" width="100%">
+    </td>
+    <td align="center" width="33%">
+      <img src="demo/LE416.gif" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## Quick Start
 Our codebase is built upon the popular [MMDetection](https://github.com/open-mmlab/mmdetection) framework. The training and testing procedures follow the standard MMDetection style.
