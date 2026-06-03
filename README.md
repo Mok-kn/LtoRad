@@ -101,3 +101,8 @@ To evaluate the overall cross-domain generalization and catastrophic forgetting 
 bash tools/dist_test.sh configs/l2rad/joint_test_seq1.py \
     work_dirs/seq1_step4_final/latest.pth 8 --eval bbox
 ```
+
+### 4. CheckPoint
+[Model]([https://www.baidu.com](https://pan.quark.cn/s/565fcb02d5d4))
+
+Code：pvKa
