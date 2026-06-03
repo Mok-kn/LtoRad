@@ -103,6 +103,6 @@ bash tools/dist_test.sh configs/l2rad/joint_test_seq1.py \
 ```
 
 ### 4. CheckPoint
-[Model]([https://www.baidu.com](https://pan.quark.cn/s/565fcb02d5d4))
+[Model](https://pan.quark.cn/s/565fcb02d5d4)
 
 Code：pvKa
